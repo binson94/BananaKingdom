@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2954796192670575557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2954796192670575555}
+  - component: {fileID: 2954796192670575554}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2954796192670575555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2954796192670575557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2954796192670575554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2954796192670575557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bbd228322636740b0f653653243a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  muted: 0
+  sounds:
+  - name: ButtonClk
+    clip: {fileID: 8300000, guid: 6701f43aae2f2e04a8d6f11a1d0ee0fb, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Yeah
+    clip: {fileID: 8300000, guid: f33289f0ac91c184881b0bac4b417aac, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Fail
+    clip: {fileID: 8300000, guid: f73d0cb90a6ae6f4190a41c7ae95d8d2, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GetItem
+    clip: {fileID: 8300000, guid: c73b541616576dc4c9c65d1cd2dc563e, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: OnDamage
+    clip: {fileID: 8300000, guid: 2e9229bb26d80334abb989bdb8175b99, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Success
+    clip: {fileID: 8300000, guid: be1ec38f10c13ff4bb30998b0fad2366, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Timer
+    clip: {fileID: 8300000, guid: 0605893543a2c9f40b0eb7038f6c1a5b, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: BGM
+    clip: {fileID: 8300000, guid: 91fbf7345dea91545a63948dc3506afa, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: BGM8bit
+    clip: {fileID: 8300000, guid: 17360a7090e8776439b63cbbc05f16ae, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Seagull
+    clip: {fileID: 8300000, guid: ceb45372167de0c46b124e7fac0f46cd, type: 3}
+    volume: 0.9
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 1
+    source: {fileID: 0}

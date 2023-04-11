@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2772957573865280053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2772957573865280051}
+  - component: {fileID: 2772957573865280050}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2772957573865280051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772957573865280053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2772957573865280050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772957573865280053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e1fa7bfc00a6b4a9a2fb30abd6954a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monkeyPrefab: {fileID: 1706611094059040776, guid: 5bc257e0cb13ec34d9b86a6a527ad7f6,
+    type: 3}
+  monkeyHead: {fileID: 0}
+  monkeyLast: {fileID: 0}
+  tailVec: {x: 0, y: 0}
+  addCount: 0
+  bananaPrefabs:
+  - {fileID: 8887307463672236919, guid: f7d8cb79eda457741bff7a5d380774ee, type: 3}
+  - {fileID: 7354699549791502482, guid: ef829f2f2caf79041a45de9265769b21, type: 3}
+  - {fileID: 2074811150460253945, guid: 5826486e88876d64e83d613831ba3e45, type: 3}
+  batPrefab: {fileID: 4420271177305167425, guid: 0dae6073a8e9dc041867b99fd6cc3ac0,
+    type: 3}
+  infrontObstacle: 0
+  infrontMonkey: 0
+  frameTime: 0.3
