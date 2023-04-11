@@ -15,3 +15,4 @@ Unity Engine / C#
 
 ## 링크
 [(스토어 링크)](https://play.google.com/store/apps/details?id=com.EXP.monkey)
+[(플레이 영상)](https://youtu.be/orLqrSUzeiM)
